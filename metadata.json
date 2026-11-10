@@ -1,0 +1,10 @@
+{
+  "name": "VRE",
+  "description": "Interactive AI Grade 1 Reading, Writing, and Math Tutor based on the Marungko Approach with Tagalog voice feedback, mouse handwriting guidelines, math evaluation, badges, and student roster.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

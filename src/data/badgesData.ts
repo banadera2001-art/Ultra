@@ -1,0 +1,60 @@
+import { Badge } from '../types';
+
+export const BADGES: Badge[] = [
+  {
+    id: 'badge-starter',
+    title: 'Marungko Starter',
+    titleTagalog: 'Bagong Simula',
+    description: 'Nagsimula sa unang pagsasanay sa pagbasa!',
+    icon: '🌟',
+    color: 'from-amber-400 to-yellow-500',
+  },
+  {
+    id: 'badge-group1-master',
+    title: 'Pangkat 1 Master',
+    titleTagalog: 'Dalubhasa sa M, A, S, I, O',
+    description: 'Naperpekto ang lahat ng tunog at salita sa Pangkat 1!',
+    icon: '🥇',
+    color: 'from-orange-400 to-amber-600',
+  },
+  {
+    id: 'badge-reader-fast',
+    title: 'Mabilis Magbasa',
+    titleTagalog: 'Mabilis at Malinaw Magbasa',
+    description: 'Nakapagbasa nang limang (5) salita o pangungusap nang tama at tuloy-tuloy!',
+    icon: '📖',
+    color: 'from-emerald-400 to-teal-600',
+  },
+  {
+    id: 'badge-pen-king',
+    title: 'Sulat-Kamay Champ',
+    titleTagalog: 'Kampeon sa Magandang Sulat',
+    description: 'Nakamit ang mataas na marka sa pagsulat gamit ang Asul-Pula-Asul na linya!',
+    icon: '✍️',
+    color: 'from-blue-400 to-indigo-600',
+  },
+  {
+    id: 'badge-math-wizard',
+    title: 'Math Wizard',
+    titleTagalog: 'Matalino sa Matematika',
+    description: 'Nakasagot nang tama sa limang (5) pagsasanay sa Math gamit ang mouse!',
+    icon: '🧮',
+    color: 'from-purple-400 to-pink-600',
+  },
+  {
+    id: 'badge-5star-streak',
+    title: 'Star Collector',
+    titleTagalog: 'Tagakolekta ng mga Bituin',
+    description: 'Nakalikom ng higit sa 50 na mga bituin sa iyong pagsasanay!',
+    icon: '⭐',
+    color: 'from-yellow-300 to-amber-500',
+  },
+  {
+    id: 'badge-marungko-legend',
+    title: 'Marungko Legend',
+    titleTagalog: 'Alamat ng Marungko',
+    description: 'Nakatapos ng mga pagsasanay sa lahat ng 4 na pangkat ng Marungko (20 Titik ng Abakada)!',
+    icon: '👑',
+    color: 'from-rose-400 to-red-600',
+  },
+];
